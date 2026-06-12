@@ -200,9 +200,9 @@ body{
 
 .profile-card{
 
-    width:80%;
+    width:100%;
 
-    max-width:1000px;
+    max-width:500px;
 
     background:rgba(255,255,255,0.05);
 
@@ -215,6 +215,8 @@ body{
     padding:50px;
 
     color:white;
+
+    margin:auto;
 }
 
 .profile-card h2{
@@ -1188,129 +1190,78 @@ section{
 /* ================================= */
 
 @media screen and (max-width:768px){
+    section{
 
-    /* NAVBAR */
+    padding-left:20px !important;
+
+    padding-right:20px !important;
+}
+#main-title{
+
+    font-size:2.8rem !important;
+}
+
+#name{
+
+    font-size:2rem !important;
+}
+
+#role{
+
+    font-size:1rem !important;
+}
 
     .navbar{
 
         width:95%;
 
-        padding:12px 20px;
+        padding:12px;
+
+        flex-direction:column;
+
+        gap:10px;
     }
 
     .nav-links{
 
-        gap:15px;
+        display:grid;
 
-        font-size:0.8rem;
+        grid-template-columns:
+        repeat(3,1fr);
 
-        flex-wrap:wrap;
-
-        justify-content:center;
-    }
-
-    .logo{
-
-        font-size:1rem;
-    }
-
-    /* HERO */
-
-    #main-title{
-
-        font-size:2.5rem !important;
-    }
-
-    #name{
-
-        font-size:1.8rem !important;
-    }
-
-    #role{
-
-        font-size:1rem !important;
-    }
-
-    /* MISSION PROFILE */
-
-    .info-grid{
-
-        grid-template-columns:1fr;
-    }
-
-    .profile-card{
-
-        width:95%;
-    }
-
-    /* TREE */
-
-    .tree-branches{
-
-        grid-template-columns:1fr;
+        gap:10px;
 
         width:100%;
+
+        text-align:center;
     }
-
-    /* PROJECT VIEWER */
-
-    .project-grid{
-
-        grid-template-columns:1fr;
-    }
-
-    .project-header h1{
-
-        font-size:2rem;
-    }
-
-    /* EXPERIENCE */
-
-    .experience-grid{
-
-        grid-template-columns:1fr;
-    }
-
-    /* SKILLS */
-
-    .skills-grid{
-
-        grid-template-columns:1fr;
-    }
-
-    /* CONTACT */
-
-    .contact-grid{
-
-        grid-template-columns:1fr;
-    }
-
-    /* PROJECT GALAXY */
-
     .galaxy{
 
-        height:auto;
+    display:flex;
 
-        display:flex;
+    flex-wrap:wrap;
 
-        flex-wrap:wrap;
+    justify-content:center;
 
-        justify-content:center;
+    gap:20px;
 
-        gap:20px;
-    }
+    height:auto;
+}
 
-    .planet{
+.planet{
 
-        position:relative !important;
+    position:relative !important;
 
-        top:auto !important;
+    top:auto !important;
 
-        left:auto !important;
+    left:auto !important;
+}
+.project-grid,
+.skills-grid,
+.experience-grid,
+.contact-grid{
 
-        width:140px;
-
-        height:140px;
-    }
+    grid-template-columns:1fr !important;
+}
 
 }
