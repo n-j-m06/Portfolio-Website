@@ -1,0 +1,435 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<nav class="navbar">
+
+    <div class="logo">
+        Universe
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#mission">Mission</a></li>
+
+        <li><a href="#tree">Journey</a></li>
+
+        <li><a href="#galaxy">Projects</a></li>
+
+        <li><a href="#experience">Experience</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#contact">Connect</a></li>
+
+    </ul>
+
+</nav>
+
+<div id="canvas-container"></div>
+
+<section class="hero">
+
+    <div class="intro-text">
+        <h1 id="main-title"></h1>
+    </div>
+
+    <h2 id="name">
+        Niranjan J Menon
+    </h2>
+
+    <p id="role"></p>
+
+    <button class="explore-btn" id="explore-btn">
+    Explore Universe
+</button>
+
+<div class="scroll-indicator">
+    <span></span>
+</div>
+
+</section>
+<section class="mission-profile" id="mission">
+
+    <div class="profile-card">
+
+        <h2>MISSION PROFILE</h2>
+
+        <div class="info-grid">
+
+            <div class="info-item">
+                <span>Name</span>
+                <h3>Niranjan J Menon</h3>
+            </div>
+
+            <div class="info-item">
+                <span>Institution</span>
+                <h3>VIT Chennai</h3>
+            </div>
+
+            <div class="info-item">
+                <span>CGPA</span>
+                <h3>9.24</h3>
+            </div>
+
+            <div class="info-item">
+                <span>Specialization</span>
+                <h3>AI & ML</h3>
+            </div>
+
+        </div>
+
+        <div class="focus-area">
+
+            <h3>Focus Areas</h3>
+
+            <ul>
+                <li>Computer Vision</li>
+                <li>Artificial Intelligence</li>
+                <li>Full Stack Development</li>
+                <li>Research & Innovation</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="tree-section" id="tree">
+
+    <h1 class="tree-title">
+        Journey
+    </h1>
+
+    <p class="tree-subtitle">
+        Every experience, project and achievement that shaped my journey.
+    </p>
+
+    <div class="tree-container">
+
+        <div class="tree-node root">
+            Let's Begin!
+        </div>
+
+        <div class="tree-branches">
+
+            <div class="branch">
+
+    <div class="tree-node expandable">
+        Education
+    </div>
+
+    <div class="branch-content">
+
+        <ul>
+
+            <li>VIT Chennai</li>
+            <li>B.Tech AI & ML</li>
+            <li>CGPA 9.24</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+           <div class="branch">
+
+    <div class="tree-node expandable">
+        Experience
+    </div>
+
+    <div class="branch-content">
+
+        <ul>
+
+            <li>Summer Research Intern | VIT Chennai</li>
+
+            <li>Frontend Development Intern | Unified Mentor</li>
+
+            <li>Data Analyst Intern | BlueTech Fincorp</li>
+
+            <li>Full Stack Development Intern | Eagle HiTech</li>
+
+        </ul>
+
+    </div>
+
+</div>
+<div class="branch">
+
+    <div class="tree-node expandable">
+        Innovation
+    </div>
+
+    <div class="branch-content">
+
+        <ul>
+
+            <li>ChromaSight</li>
+
+            <li>Unified Expense Tracker</li>
+
+            <li>Bharat Dashboard</li>
+
+            <li>Privacy Pulse</li>
+
+            <li>EthosLink</li>
+
+            <li>WaitSafe</li>
+
+            <li>LegacyCare</li>
+
+            <li>Vistara</li>
+
+            <li>SpecForge AI</li>
+
+            <li>Kaatru-Mozhi</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+            <div class="branch">
+
+    <div class="tree-node expandable">
+        Skills Nexus
+    </div>
+
+    <div class="branch-content">
+
+        <ul>
+
+            <li>Languages</li>
+
+            <li>Frameworks</li>
+
+            <li>AI & ML</li>
+
+            <li>Data & Security</li>
+
+            <li>Developer Tools</li>
+
+            <li>Libraries</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="project-galaxy" id="galaxy">
+
+    <h1>Project Galaxy</h1>
+
+    <p>
+        Click any planet to explore.
+    </p>
+
+    <div class="galaxy">
+
+        <div class="planet" data-project="chroma">
+            ChromaSight
+        </div>
+
+        <div class="planet" data-project="ethos">
+            EthosLink
+        </div>
+
+        <div class="planet" data-project="waitsafe">
+            WaitSafe
+        </div>
+
+        <div class="planet" data-project="legacy">
+            LegacyCare
+        </div>
+
+        <div class="planet" data-project="vistara">
+            Vistara
+        </div>
+
+        <div class="planet" data-project="specforge">
+            SpecForge AI
+        </div>
+
+        <div class="planet" data-project="kaatru">
+            Kaatru-Mozhi
+        </div>
+
+        <div class="planet" data-project="privacy">
+            Privacy Pulse
+        </div>
+
+        <div class="planet" data-project="bharat">
+            Bharat Dashboard
+        </div>
+
+        <div class="planet" data-project="expense">
+            Expense Tracker
+        </div>
+
+    </div>
+
+</section>
+<section class="project-viewer" id="project-viewer">
+
+    <div class="viewer-container">
+
+        <div class="project-header">
+
+            <h1 id="viewer-title">
+                Select A Project
+            </h1>
+
+            <p id="viewer-tagline">
+                Explore the universe of innovation.
+            </p>
+
+        </div>
+
+        <div class="project-grid">
+
+            <div class="info-card">
+
+                <h3>Overview</h3>
+
+                <p id="viewer-overview"></p>
+
+            </div>
+
+            <div class="info-card">
+
+                <h3>Tech Stack</h3>
+
+                <div id="viewer-tech"></div>
+
+            </div>
+
+            <div class="info-card">
+
+                <h3>Key Features</h3>
+
+                <p id="viewer-features"></p>
+
+            </div>
+
+            <div class="info-card">
+
+                <h3>Impact</h3>
+
+                <p id="viewer-impact"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="experience-section" id="experience">
+
+    <h1>Experience Command Center</h1>
+
+    <div class="experience-grid">
+
+        <div class="experience-card">
+            <h2>🔬 SRIP Research Intern</h2>
+            <p>Computer Vision Research</p>
+        </div>
+
+        <div class="experience-card">
+            <h2>💻 Unified Mentor</h2>
+            <p>Frontend Development</p>
+        </div>
+
+        <div class="experience-card">
+            <h2>📊 BlueTech Fincorp</h2>
+            <p>Data Analytics</p>
+        </div>
+
+        <div class="experience-card">
+            <h2>🚀 Eagle HiTech</h2>
+            <p>Full Stack Development</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="skills-section" id="skills">
+
+    <h1>Skills Nexus</h1>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <h2>Languages</h2>
+            <p>Python, Java, C++, JavaScript, SQL</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Frameworks</h2>
+            <p>React, Node, FastAPI, Flask, Flutter</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>AI & ML</h2>
+            <p>OpenCV, MediaPipe, TensorFlow Lite, Scikit-Learn</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Databases</h2>
+            <p>PostgreSQL, MySQL, MongoDB</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Tools</h2>
+            <p>Git, GitHub, Docker, Postman</p>
+        </div>
+
+        <div class="skill-card">
+            <h2>Libraries</h2>
+            <p>NumPy, Pandas, Matplotlib, Librosa, SoundDevice, Axios</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="contact-section" id="contact">
+
+    <h1>Let's Connect</h1>
+
+    <div class="contact-grid">
+
+        <a href="mailto:menonniranjanj@gmail.com"
+           class="contact-card">
+
+           📧 Email
+
+        </a>
+
+        <a href="https://www.linkedin.com/in/niranjan-j-menon/"
+           class="contact-card">
+
+           💼 LinkedIn
+
+        </a>
+
+        <a href="https://github.com/n-j-m06"
+           class="contact-card">
+
+           💻 GitHub
+
+        </a>
+
+
+    </div>
+
+</section>
+{% endblock %}
