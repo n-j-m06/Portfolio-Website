@@ -538,7 +538,27 @@ const projectDetails = {
 
         impact:
         "Creates a touch-free music interaction experience."
-    }
+    },
+    medios:{
+
+    title:"📰 MediosLink",
+
+    overview:
+    "A centralized media discovery platform that aggregates news, articles, videos, and digital content into a unified and user-friendly experience.",
+
+    tech:[
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Express.js"
+    ],
+
+    features:
+    "Media aggregation, centralized content discovery, responsive interface, scalable architecture, and seamless content access.",
+
+    impact:
+    "Simplifies media consumption by providing users with a single platform to discover and access diverse digital content."
+},
 
 };
 const planets =
