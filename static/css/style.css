@@ -659,59 +659,58 @@ html{
 
 }
 .planet:nth-child(1){
-top:20px;
-left:10%;
+    top:8%;
+    left:8%;
 }
 
 .planet:nth-child(2){
-top:200px;
-left:60%;
+    top:10%;
+    left:28%;
 }
 
 .planet:nth-child(3){
-top:100px;
-left:80%;
+    top:22%;
+    left:48%;
 }
 
 .planet:nth-child(4){
-top:350px;
-left:20%;
+    top:15%;
+    left:78%;
 }
 
 .planet:nth-child(5){
-top:450px;
-left:65%;
+    top:42%;
+    left:18%;
 }
 
 .planet:nth-child(6){
-top:250px;
-left:40%;
+    top:34%;
+    left:48%;
 }
 
 .planet:nth-child(7){
-top:500px;
-left:85%;
+    top:30%;
+    left:68%;
 }
 
 .planet:nth-child(8){
-top:550px;
-left:35%;
+    top:42%;
+    left:82%;
 }
 
 .planet:nth-child(9){
-top:100px;
-left:35%;
+    top:62%;
+    left:48%;
 }
 
 .planet:nth-child(10){
-top:350px;
-left:80%;
+    top:58%;
+    left:70%;
 }
+
 .planet:nth-child(11){
-
-    top:70%;
-
-    left:85%;
+    top:65%;
+    left:86%;
 }
 @keyframes floatPlanet{
 
