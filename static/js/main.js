@@ -541,25 +541,26 @@ const projectDetails = {
     },
     medios:{
 
-    title:"📰 MediosLink",
+    title:"🎬 MediosLink",
 
     overview:
-    "A centralized media discovery platform that aggregates news, articles, videos, and digital content into a unified and user-friendly experience.",
+    "An AI-powered cinematic audio platform that transforms movie scripts and story narratives into immersive background music experiences through intelligent emotion and context analysis.",
 
     tech:[
+        "Python",
+        "Flask",
         "React.js",
-        "Node.js",
-        "MongoDB",
-        "Express.js"
+        "Machine Learning",
+        "NLP",
+        "Audio Processing"
     ],
 
     features:
-    "Media aggregation, centralized content discovery, responsive interface, scalable architecture, and seamless content access.",
+    "Script emotion analysis, genre recognition, mood detection, AI-driven soundtrack recommendation, narrative-to-music transformation, and immersive cinematic audio generation.",
 
     impact:
-    "Simplifies media consumption by providing users with a single platform to discover and access diverse digital content."
+    "Bridges storytelling and music by helping creators instantly discover or generate suitable background scores for scripts, scenes, and narratives."
 },
-
 };
 const planets =
 document.querySelectorAll(".planet");
