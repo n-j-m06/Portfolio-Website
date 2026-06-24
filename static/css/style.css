@@ -572,7 +572,32 @@ html{
 
 .branch.active .branch-content{
 
-    max-height:500px;
+    max-height:300px;
+
+    overflow-y:auto;
+}
+.branch-content::-webkit-scrollbar{
+
+    width:8px;
+}
+
+.branch-content::-webkit-scrollbar-track{
+
+    background:rgba(255,255,255,0.05);
+
+    border-radius:10px;
+}
+
+.branch-content::-webkit-scrollbar-thumb{
+
+    background:#00E5FF;
+
+    border-radius:10px;
+}
+
+.branch-content::-webkit-scrollbar-thumb:hover{
+
+    background:#33EEFF;
 }
 .project-galaxy{
 
