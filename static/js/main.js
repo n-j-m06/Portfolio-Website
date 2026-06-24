@@ -561,6 +561,27 @@ const projectDetails = {
     impact:
     "Bridges storytelling and music by helping creators instantly discover or generate suitable background scores for scripts, scenes, and narratives."
 },
+acadia:{
+
+    title:"🎓 Acadia",
+
+    overview:
+    "A modern college discovery platform designed to help students explore, compare, and identify suitable institutions through an intuitive and responsive experience.",
+
+    tech:[
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "JavaScript"
+    ],
+
+    features:
+    "College search, filtering and exploration, responsive user interface, student-centric navigation, institution comparison, and seamless browsing experience.",
+
+    impact:
+    "Simplifies the college selection process by providing students with an accessible and organized platform for discovering educational opportunities."
+},
 };
 const planets =
 document.querySelectorAll(".planet");
