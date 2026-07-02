@@ -582,6 +582,29 @@ acadia:{
     impact:
     "Simplifies the college selection process by providing students with an accessible and organized platform for discovering educational opportunities."
 },
+kinetiq:{
+
+    title:"🚗 KinetIQ",
+
+    overview:
+    "An AI-powered driver intelligence platform that enhances road safety through real-time monitoring, authentication, and intelligent analytics. Designed with a modern full-stack architecture, KinetIQ combines an immersive frontend with secure backend services.",
+
+    tech:[
+        "React.js",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "JWT Authentication",
+        "REST APIs"
+    ],
+
+    features:
+    "Secure authentication, responsive dashboard, AI-inspired user interface, driver profile management, analytics dashboard, protected routes, and complete frontend-backend integration.",
+
+    impact:
+    "Demonstrates scalable full-stack architecture while showcasing modern UI/UX design, authentication workflows, and intelligent mobility solutions."
+},
 };
 const planets =
 document.querySelectorAll(".planet");
