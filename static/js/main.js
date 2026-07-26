@@ -605,6 +605,34 @@ kinetiq:{
     impact:
     "Demonstrates scalable full-stack architecture while showcasing modern UI/UX design, authentication workflows, and intelligent mobility solutions."
 },
+bharatverse:{
+
+    title:"🌏 BharatVerse",
+
+    overview:
+    "BharatVerse is an AI-powered Digital Twin platform built to empower governments, planners, and emergency responders with intelligent decision-making. The platform combines real-time simulations, geospatial intelligence, AI agents, weather analytics, and policy evaluation into a unified ecosystem for smarter governance and sustainable urban development.",
+
+    tech:[
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "FastAPI",
+        "SQLAlchemy",
+        "SQLite",
+        "JWT Authentication",
+        "WebSockets",
+        "Leaflet",
+        "Gemini AI",
+        "Render",
+        "Vercel"
+    ],
+
+    features:
+    "AI-powered Digital Twin simulations, Policy Impact Analysis, Disaster Prediction, Weather Intelligence, Interactive GIS Dashboards, Heatmaps, Multi-Agent AI Decision Support, Real-time Analytics, Sustainable Development Insights aligned with the UN SDGs.",
+
+    impact:
+    "Enables data-driven governance by helping decision-makers simulate future scenarios, evaluate policy outcomes, improve disaster preparedness, and optimize urban planning through AI and Digital Twin technology."
+},
 };
 const planets =
 document.querySelectorAll(".planet");
