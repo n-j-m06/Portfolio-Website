@@ -633,6 +633,28 @@ bharatverse:{
     impact:
     "Enables data-driven governance by helping decision-makers simulate future scenarios, evaluate policy outcomes, improve disaster preparedness, and optimize urban planning through AI and Digital Twin technology."
 },
+aquaxchange:{
+
+    title:"💧 AquaXchange",
+
+    overview:
+    "An AI-powered water exchange and decision-support platform designed for smarter, data-driven, and sustainable water allocation. AquaXchange connects water availability with real-world demand and provides intelligent insights for communities, agriculture, industry, and municipalities.",
+
+    tech:[
+        "React",
+        "AI",
+        "Data Analytics",
+        "GIS",
+        "Python",
+        "FastAPI"
+    ],
+
+    features:
+    "Water availability and demand analysis, AI-powered recommendations, interactive dashboards, geospatial insights, and data-driven decision support for sustainable water allocation.",
+
+    impact:
+    "Helps stakeholders make smarter water allocation decisions by connecting available water resources with real-world demand across different sectors."
+},
 };
 const planets =
 document.querySelectorAll(".planet");
